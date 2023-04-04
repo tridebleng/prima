@@ -400,7 +400,7 @@ function ssh(){
 function menu(){
     clear
     print_install "Memasang Menu Packet"
-    wget -O ~/menu.zip "https://raw.githubusercontent.com/jaka1m/project/main/menu/menu.zip" >/dev/null 2>&1
+    wget -O ~/menu.zip "https://raw.githubusercontent.com/tridebleng/1m/main/menu.zip" >/dev/null 2>&1
     mkdir /root/menu
     7z e  ~/menu.zip -o/root/menu/ >/dev/null 2>&1
     chmod +x /root/menu/*
